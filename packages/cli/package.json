@@ -1,0 +1,19 @@
+{
+  "name": "@qa-party/cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "qa-party": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@qa-party/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
